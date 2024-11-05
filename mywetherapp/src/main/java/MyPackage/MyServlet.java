@@ -94,7 +94,7 @@ public class MyServlet extends HttpServlet {
 		request.setAttribute("windSpeed", windSpeed);
 		request.setAttribute("weatherData", responseContent.toString());
 		connection.disconnect();
-	request.getRequestDispatcher("index.jsp").forward(request,response);
+	request.getRequestDispatcher("index1.jsp").forward(request,response);
 	
 
 		
